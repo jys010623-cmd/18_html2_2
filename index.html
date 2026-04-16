@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="script/action.js"></script>
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <div class="topset">
+            <div class="language_box"><img src="images/Language.png" alt="">language</div>
+
+            <div class="login_box">
+                <div class="login">
+                    <a href="#"><img src="images/Top 01.png" alt="">로그인</a>
+                    <a href="#"><img src="images/Top 02.png" alt="">회원가입</a>
+                    <a href="#"><img src="images/Top 03.png" alt="">공지사항</a>
+                </div>
+                <div class="logout">
+                    <a href="#">로그아웃</a>
+                    <a href="#">정보수정</a>
+                    <a href="#">공지사항</a>
+                </div>
+            </div>
+        </div>
+
+        <h1><a href="#"><img src="images/logo.png" alt="">서울관광정보</a></h1>
+
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#">지금의 서울</a>
+                </li>
+                <li>
+                    <a href="#">추천</a>
+                </li>
+                <li>
+                    <a href="#">여행지</a>
+                </li>
+                <li>
+                    <a href="#">여행정보</a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Weather.png" alt="">13℃</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div id="hero">
+        <div class="textbox">
+            <strong>한강공원에서 즐기는 휴일</strong>
+            <p>서울에서의 특별한 하루</p>
+        </div>
+    </div> -->
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="images/visual_main.png" alt="">
+                <div class="textbox">
+                <strong>한강공원에서 즐기는 휴일</strong>
+                <p>서울에서의 특별한 하루</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="images/visual_main2.png" alt="">
+            <div class="textbox">
+                <strong>오늘 하루도 수고했어요</strong>
+                <p>퇴근길의 서울 풍경</p>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+
+    <div id="section_box">
+        <section id="section01">
+            <div class="container">
+                <div class="board">
+                    <p>서울 여행에 대한 기본 정보를 한눈에</p>
+                    <strong>서울 여행정보</strong>
+
+                    <ul class="info_list">
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_sec1.png" alt="">
+                                <span>가이드북&지도</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_sec2.png" alt="">
+                                <span>공연 예매하기</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_sec3.png" alt="">
+                                <span>도보 해설관광</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_sec4.png" alt="">
+                                <span>관광안내소</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_sec5.png" alt="">
+                                <span>서울 큐레이션</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="section02">
+            <div class="container">
+                <span>서울 필수 명소 3곳 & 트렌드 코스 1개 완벽 정복!</span>
+                <h2>서울 탐방하기</h2>
+
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <img src="images/sec2_img1.png" alt="" class="sec2_img1">
+                            <h3>명동거리</h3>
+                            <p>남산타워를 바라보는 거리</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/sec2_img2.png" alt="" class="sec2_img1">
+                            <h3>북촌 한옥마을</h3>
+                            <p>도심 속 고전적인 아름다움</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/sec2_img3.png" alt="" class="sec2_img1">
+                            <h3>반포 한강공원</h3>
+                            <p>야경을 보며 돗자리에서 즐기는 도시락</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/sec2_img4.png" alt="" class="sec2_img1">
+                            <h3>덕수궁</h3>
+                            <p>도심 속 궁궐 산책</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section03">
+            <div class="container">
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <div class="textbox">
+                            <strong>NCT DREAM THE CITY SEOUL</strong>
+                            <p>Which one is your BEST SIDE?<br>NCT DREAM의 컴백을 즐기며 8월 25일,<br>아름다운 여름의 서울을 한강 위에서 만나보세요!</p>
+                        </div>
+                        <figure><img src="images/sec3_img1.png" alt=""></figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section04">
+            <div class="container">
+                <span>비짓서울에서 추천하는 다양한 경험</span>
+                <h2>에디터 추천여행</h2>
+
+
+                <div class="slider-wrap">
+                    <button class="btn-prev">
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                    </button>
+
+                    <ul class="content">
+                        <li>
+                            <a href="#">
+                                <img src="images/sec4_img1.png" alt="">
+                                <p>서울의 계절 국밥으로 만나는 봄의 맛</p>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">
+                                <img src="images/sec4_img2.png" alt="">
+                                <p>서울 야외에서 즐기는 도심 속 궁중 이야기</p>
+                        </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/sec4_img3.png" alt="">
+                                <p>서울에서 만나는 시장 음식</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <button class="btn-next">
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section id="section04">
+            <div class="container">
+                <span>비짓서울에서 추천하는 다양한 경험</span>
+                <h2>에디터 추천여행</h2>
+
+                <ul class="icons">
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">arrow_back_ios</span>
+                            <span class="material-symbols-outlined"> arrow_forward_ios</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="content">
+                    <li>
+                        <a href="#">
+                            <img src="images/sec4_img1.png" alt="" class="sec4_img1">
+                            <p>서울의 계절 국밥으로 만나는 봄의 맛</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/sec4_img2.png" alt="" class="sec4_img1">
+                            <p>서울 야외에서 즐기는 도심 속 궁중 이야기</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/sec4_img3.png" alt="" class="sec4_img1">
+                            <p>서울에서 만나는 시장 음식</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
+    </div>
+
+    <footer>
+    <div class="container">
+        <div class="footer_row row1">
+            <div class="footer_logos">
+                <img src="images/footer_logo1.png" alt="서울관광재단">
+                <img src="images/footer_logo2.png" alt="SEOUL MY SOUL">
+            </div>
+            <div class="footer_links">
+                <a href="#" class="bold">개인정보처리방침</a>
+                <span class="bar">|</span>
+                <a href="#">공지사항</a>
+            </div>
+        </div>
+
+        <div class="footer_row row2">
+            <div class="info_item">
+                <strong>운영</strong>
+                <span>월~금, 오전 9시~오후 6시</span>
+                <a href="mailto:staff@visitseoul.net" class="mail">staff@visitseoul.net</a>
+            </div>
+            <span class="bar">|</span>
+            <div class="info_item">
+                <strong>문의</strong>
+                <span>여행자 지원센터</span>
+                <img src="images/footer_icon1.png" alt="" class="small_icon">
+                <span>일반 관광 문의 1330</span>
+                <img src="images/footer_icon1.png" alt="" class="small_icon">
+            </div>
+        </div>
+
+        <div class="footer_row row3">
+            <div class="info_item">
+                <strong>Visit Seoul 모바일 앱</strong>
+                <a href="#">App Store <img src="images/footer_icon1.png" alt="" class="small_icon"></a>
+                <a href="#">Google Play <img src="images/footer_icon1.png" alt="" class="small_icon"></a>
+            </div>
+            <span class="bar">|</span>
+            <div class="info_item sns">
+                <strong>비짓서울 공식채널</strong>
+                <div class="sns_icons">
+                    <a href="#"><img src="images/footer_icon2.png" alt=""></a>
+                    <a href="#"><img src="images/footer_icon3.png" alt=""></a>
+                    <a href="#"><img src="images/footer_icon4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_row row4">
+            <address>03190, 서울특별시 종로구 청계천로85 (31빌딩) 6층</address>
+            <p class="copyright">© 2024 Seoul Tourism Organization. All rights reserved.</p>
+        </div>
+
+        <div class="footer_awards">
+            <div class="award_card">
+                <img src="images/footer_logo3.png" alt="">
+                <p>정보보호 및 개인정보보호<br>관리체계 인증</p>
+            </div>
+            <div class="award_card">
+                <img src="images/footer_logo4.png" alt="">
+                <p>과학기술정보통신부 주관<br>웹접근성품질마크인증</p>
+            </div>
+            <div class="award_card">
+                <img src="images/footer_logo5.png" alt="">
+                <p>스마트앱어워드<br>2024 콘텐츠 혁신대상</p>
+            </div>
+            <div class="award_card">
+                <img src="images/footer_logo6.png" alt="">
+                <p>웹어워드<br>2024 관광부문 통합대상</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <!-- <footer>
+        <div class="container">
+            <div class="textbox">
+                <ul>
+                    <li>
+                        <img src="images/footer_logo1.png" alt="" class="footer_logo1">
+                        <img src="images/footer_logo2.png" alt="" class="footer_logo1">
+                        <p>개인정보처리방침</p>
+                        <span>공지사항</span>
+                    </li>
+                    <li>
+                        <strong>운영</strong>
+                        <p>월~금, 오전 9시~오후 6시</p>
+                        <span>staff@visitseoul.net</span>
+                    </li>
+                    <li>
+                        <strong>문의</strong>
+                        <p>여행자 지원센터</p>
+                        <img src="images/footer_icon1.png" alt="">
+                        <span>일반 관광 문의 1330</span>
+                        <img src="images/footer_icon1.png" alt="">
+                    </li>
+                    <li>
+                        <strong>Visit Seoul 모바일 앱</strong>
+                        <p>App Store</p>
+                        <img src="images/footer_icon1.png" alt="">
+                        <span>Google Play</span>
+                        <img src="images/footer_icon1.png" alt="">
+                    </li>
+                    <li>
+                        <strong>비짓서울 공식채널</strong>
+                        <a href="#">
+                            <img src="images/footer_icon2.png" alt="" class="footer_icons">
+                        </a>
+                        <a href="#">
+                            <img src="images/footer_icon3.png" alt="" class="footer_icons">
+                        </a>
+                        <a href="#">
+                            <img src="images/footer_icon4.png" alt="" class="footer_icons">
+                        </a>
+                    </li>
+                    <li>
+                        <p>03190, 서울특별시 종로구 청계천로85 (31빌딩) 6층</p>
+                        <img src="images/footer_icon5.png" alt="" class="footer_icons">
+                        <span>2024 Seoul Tourism Organization. All rights reserved</span>
+                    </li>
+                    <li>
+                        <img src="images/footer_logo3.png" alt="">
+                        <p>정보보호 및 개인정보보호<br>관리체계 인증</p>
+                        <img src="images/footer_logo4.png" alt="">
+                        <p>과학기술정보통신부 주관<br>웹접근성품질마크인증</p>
+                        <img src="images/footer_logo5.png" alt="">
+                        <p>스마트앱어워드<br>2024 콘텐츠 혁신대상</p>
+                        <img src="images/footer_logo6.png" alt="">
+                        <p>웹어워드<br>2024 관광부문 통합대상</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer> -->
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>
