@@ -3,10 +3,13 @@
 * {margin: 0; padding: 0;}
 li {list-style: none;}
 a {text-decoration: none; color: #333;}
-
+html {scroll-behavior: smooth;}
 body {font-family: 'Pretendard', '맑은 고딕', sans-serif;}
+hr {border: none;}
 
-.container {width: 1420px; margin: 0 auto;}
+
+.container {max-width: 1420px; margin: 0 auto;}
+
 
 header {text-align: center;}
 header .topset {display: flex; justify-content: space-between; padding: 40px 120px 0 225px; align-items: center;}
@@ -190,3 +193,40 @@ footer strong { font-weight: 700; margin-right: 12px; }
 
 /* 호버 효과 */
 footer a:hover { text-decoration: underline; color: #0052FF; }
+
+
+/* subpage style */
+
+/*greeting */
+
+
+#hero_sub {background: #eee;}
+
+#section_box_sub {background: #f9f9f9; padding-top: 20px;}
+#section_box_sub .container {padding: 120px 0;}
+
+#section_box_sub nav {}
+#section_box_sub nav .snb {padding: 0 165px; background: #fff; display: flex; justify-content: center;}
+#section_box_sub nav .snb li {font-size: 18px;}
+#section_box_sub nav .snb li a {padding: 13px 20px; display: block; color: #555;}
+#section_box_sub nav .snb li.now a,
+#section_box_sub nav .snb li:hover a {font-weight: 600; color: #000;}
+
+
+.content_sub {}
+.content_sub h2 {display: flex; flex-direction: column; align-items: center;}
+.content_sub h2 strong {font-size: 40px; letter-spacing: 0.5em; font-weight: 700;}
+.content_sub h2 hr {width: 50%; height: 1px; border-top: 1px dashed #bbb; margin: 20px auto;}
+.content_sub h2 span {font-size: 30px; font-weight: 400; color: #0052FF;}
+
+
+.content_sub .content_box {margin-top: 50px;}
+.content_sub .content_box .content {display: flex; flex-wrap: wrap; gap: 41px;}
+.content_sub .content_box .content li {width: 26%; flex-grow: 1;}
+.content_sub .content_box .content li figure {}
+.content_sub .content_box .content li figure img {width: 100%;}
+.content_sub .content_box .content li h3 {margin: 7px 0;}
+.content_sub .content_box .content li ul {}
+.content_sub .content_box .content li ul li {width: 100%; font-size: 18px; color: #545454; padding: 5px 0; position: relative; padding-left: 10px;}
+
+.content_sub .content_box .content li ul li::before {content: ''; width: 4px; height: 4px; background: #0052FF; position: absolute; top: 14px; left: 0;}
